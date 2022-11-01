@@ -1,0 +1,270 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+header{
+    background-color: rgb(182, 181, 181);
+    width:100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 110px;
+    height: 50px;
+    
+}
+
+.logo{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: rgb(40, 40, 255);
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-size: 1.5em;
+}
+.navi{
+    padding: 15;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 300;
+   
+}
+.navi a:hover{
+    color: purple;
+    transition: 0.7s ease;
+    font-size: 1.2em;
+}
+a{
+    padding-left: 30px;
+    text-decoration: none;
+}
+.iam{
+    padding-top: 150;
+    padding-left: 70px;
+    background:url(images.png);
+    background-size: cover;
+    height: 500;
+    
+}
+.job{
+color: rgb(35, 35, 245);
+font-size: 47px;
+}
+.learn{
+ width: 400;
+ 
+}
+.main{
+  color: #fff;
+  background-color: rgb(43, 43, 238);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease;
+}
+.main:hover{
+background-color: blue;
+transition: 0.7s ease;
+font-size: 1.4em;
+}
+.ltitte{
+    display: flex;
+    justify-content: center;
+    color: rgb(33, 33, 243);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+   
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 32, 233);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+padding-top: 2em;
+}
+.contant{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; /* بييخليى لو مافيش مساحه للكروت تيجي تحت بعض بشكل  */
+
+}
+.card{
+    background-color: #fff;
+    width: 18em;
+    box-shadow: 0 5px 34px rgba(1 1  1 /40% );
+    margin-bottom: 30px;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+  left: 30px;
+    
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.icon{
+    color: rgb(48, 99, 252);
+    font-size: 8em;
+    text-align: center;
+}
+.info h3{
+color: royalblue;
+font-size: 1.2em;
+font-weight: 700;
+margin: 10px;
+
+}
+.info{
+    text-align: center;
+
+}
+.in{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; /* بييخليى لو مافيش مساحه للكروت تيجي تحت بعض بشكل  */
+}
+.project{
+    background-color: black;
+    height: 31em;
+}
+.one{
+    color: rgb(53, 53, 243);
+    text-align: center;
+    padding-top: 80px;
+   
+}
+.pp{
+    color: #fff;
+  background-color: rgb(43, 43, 238);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease; 
+}
+.pp:hover{
+ 
+    background-color: blue;
+transition: 0.7s ease;
+font-size: 1.4em;
+}
+.oo{
+    color: #fff;
+  background-color: rgb(43, 43, 238);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease; 
+}
+.oo:hover{
+    background-color: blue;
+transition: 0.7s ease;
+font-size: 1.4em;
+}
+.proj{
+    text-align: center;
+    padding-top:4.5em ;
+}
+.us{
+background-color: rgb(211, 207, 207);
+    height: 30em;
+  
+}
+.na{
+    color: rgb(53, 53, 243);
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.phone{
+    color: #fff;
+    background-color: slategrey;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease; 
+    margin-top: 5em;
+    margin-left: 5.5em;
+  }
+  .phone:hover{
+   
+    background-color: rgb(158, 157, 157);
+  transition: 0.7s ease;
+  font-size: 20;
+  }
+   .email {color: #fff;
+background-color: slategrey;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+  transition: 0.7s ease; 
+}
+.email:hover{
+ 
+    background-color: slategrey;
+transition: 0.7s ease;
+font-size: 20;
+}
+
+
+@media (max-width:1032px){
+    header{
+        padding: 12px 20px;
+    }
+    .navi a{
+        padding-left: 10px;
+    }
+    .title{
+        padding: 1.8em; 
+    }
+    .section{
+        padding: 80px 20px;
+    }
+    .contant h2{
+        font-size: 1em;
+    }
+    .contant h3{
+        font-size: 1.6em;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
